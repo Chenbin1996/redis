@@ -16,10 +16,12 @@
 
 ## 引入pom
 
+将代码拉取到本地，运行maven命令打成jar包，在其他项目的pom文件中引入如下：
+
 ```xml
         <dependency>
-            <groupId>com.hm</groupId>
-            <artifactId>common-redis</artifactId>
+            <groupId>com.ruxuanwo</groupId>
+            <artifactId>redis</artifactId>
             <version>0.0.1-SNAPSHOT</version>
         </dependency>
 ```
